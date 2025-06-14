@@ -51,9 +51,5 @@ Once the app starts, open your browser and go to:
 http://localhost:8080
 ```
 
-```
-
-✅ Now it's clean and properly formatted—no incorrect code block labels like `arduino`. Let me know if you want me to include this in a complete README file.
-```
 
 
