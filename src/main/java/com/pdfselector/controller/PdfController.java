@@ -23,12 +23,6 @@ public class PdfController {
         return "upload";
     }
 
-@GetMapping("/")
-public String showUploadPage() {
-    return "upload"; // Thymeleaf template name, like upload.html
-}
-
-
     @PostMapping("/upload")
     public String handleFileUpload(@RequestParam("file") MultipartFile file, Model model) throws IOException {
         if (file.isEmpty()) {
